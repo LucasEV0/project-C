@@ -2,7 +2,7 @@
 #define LOWER 0
 #define UPPER 300
 #define STEP 20
-/* imprime la tabla Fahrenheit-Celsius */
+
 int main(){
     int c = getchar();
     int b = c;
