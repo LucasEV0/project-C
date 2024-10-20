@@ -1,16 +1,14 @@
 #include <stdio.h>
-#define LOWER 0
-#define UPPER 300
-#define STEP 20
+#define HALF 2
 
 int main(){
-    int c = getchar();
-    int b = c;
-    printf("Numero: %d \n", c);
-    while(b != 0){
-        int ej = b%2;
-        printf("%d", ej);
-        b = b/2;
+    int characterInput = getchar();
+    int numberInput = characterInput;
+    printf("Numero: %d \n", numberInput);
+    while(numberInput != 0){
+        int rest = numberInput%HALF;
+        printf("%d", rest);
+        numberInput = numberInput/HALF;
     }
     printf("\n");
 }
