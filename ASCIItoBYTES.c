@@ -3,6 +3,7 @@
 
 int main(){
     int characterInput = getchar();
+    
     int numberInput = characterInput;
     printf("Numero: %d \n", numberInput);
     while(numberInput != 0){
